@@ -1,0 +1,205 @@
+.mandatory{color: red;}
+.control-group .help-block{margin-top: -2px;margin-bottom: 0;}
+.control-group{margin-bottom: 5px;}
+.navbar {margin-bottom: -4px;}
+.nav{margin-bottom: 10px;}
+.width_100{width: 100px;}
+.ui-widget-overlay{position: absolute; top: 0; left: 0; width: 100%; height: 100%;  background: #eeeeee url(../images/ui-bg_diagonals-thick_90_eeeeee_40x40.png) 50% 50% repeat; opacity: .80;filter:Alpha(Opacity=80); }
+header h2{margin-bottom: 0;}
+    header h2 i{margin-top: 4px !important;}
+.margin_right_10{margin-right: 10px;}
+#save_result .alert{margin-bottom: 8px;}
+    #save_result .alert p,#save_result2 .alert p{padding: 0;margin: 0;}
+legend{margin-bottom: 2px;}
+.popover.bottom{padding: 0 !important}
+.btn .caret,.btn-mini .caret, .btn-small .caret, .btn-large .caret{margin-top: 10px;margin-left: 3px;}
+#waiting_for_response{display: block !important;margin-top: 20px;}
+    #waiting_for_response>.alert{margin-bottom: 0}
+.modal{top: 3% !important;}
+form{margin: 0;}
+hr{margin: 4px 0 4px 0}
+legend+.control-group {margin-top: 6px;}
+.brand{padding: 5px !important;}
+
+
+#avatar_upload_area input[type="file"]{position: absolute; height: 28px; cursor: pointer; background: transparent; border: 0; opacity: 0; -moz-opacity: 0; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0); z-index: 2;width: 117px;}
+    #avatar_upload_area input[type="file"]:hover{cursor: pointer;}
+    
+#teachers_list{width: 24%;margin-right: 2%;}
+    #teachers_list>ul{height: 405px;overflow-y: auto;overflow-x: none;}
+    #teachers_list>ul>li{border-bottom: 1px solid;}
+    
+    .ui-draggable-dragging{color: #9C0001 !important;text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);vertical-align: middle;background-color: #F8F8F8;background-image: -moz-linear-gradient(top,white,#EEE);background-image: -webkit-gradient(linear,0 0,0 100%,from(white),to(#EEE));background-image: -webkit-linear-gradient(top,white,#EEE);background-image: -o-linear-gradient(top,white,#EEE);background-image: linear-gradient(to bottom,white,#EEE);background-repeat: repeat-x;border: 1px solid #CCC;border-color: #EEE #EEE #C8C8C8;border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);border-bottom-color: #B3B3B3;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',endColorstr='#ffeeeeee',GradientType=0);filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2),0 1px 2px rgba(0, 0, 0, 0.05);-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2),0 1px 2px rgba(0, 0, 0, 0.05);}
+
+#user_avatar_image{background-repeat: no-repeat;width: 120px;height: 120px}
+    #person_photo_area{margin-top: 113px;}
+    
+
+    textarea#new_comment{width: 90%;font-size: 14px !important;}
+input[type="radio"],input[type="checkbox"]{margin: -2px 5px 0;}
+#gradebook_table input.input-mini{width: 54px;padding-left: 2px;padding-right: 2px;text-align: center;}
+    #gradebook_table .add-on{max-width: 30px;overflow: hidden;}
+    
+.table-striped>tbody>tr:nth-child(odd)>td{background-color: #f9f9f9;}
+.table_no_striped td{background-color: transparent !important;border-left: 1px solid #b1b1b1;}
+.well{padding: 10px;}
+    .well.pull-left img{width:70px;height: auto;}
+    .well h4{margin-top: 0;margin-bottom: 8px;}
+.child_details{margin-left: 5px;}
+.icon-info-sign.popover_details:hover{ cursor: pointer;}
+#show_full_menu{display: none;}
+.more_text{display: none;}
+
+.student_details{width: 31%;padding-left: 2%;margin-bottom: 30px;border-bottom: 1px solid rgba(68, 59, 59, 0.54)}
+    .student_details h5{margin-top: 0;}
+
+.gradebook_subject{width: 100%;padding-bottom: 5px;}
+    .gradebook_subject h4,.gradebook_subject h5{margin-bottom: 0;}
+    .gradebook_subject_group{border-bottom: 1px solid #b4b4b5;padding: 6px 0 6px 6px;}
+    .gradebook_assignment{display: none;width: 17%;margin-right: 10px;}
+
+.calendar_modal{left: 15%;right: 15%;margin-left: 0;width: auto;}
+.notifications{color:#3251f3}
+    .notifications b{font-size: 16px;margin-left: 3px;}
+        
+.rating{background:url(../images//stars-rating.png) no-repeat;height:17px;display:inline-block}
+    .rate_0{width:0;background:0;content:"none"}
+    .rate_1{width:17px;background-position:-70px -33px}
+    .rate_2{width:34px;background-position:-52px -33px}
+    .rate_3{width:51px;background-position:-35px -33px}
+    .rate_4{width:68px;background-position:-18px -33px}
+    .rate_5{width:85px;background-position:0 -33px}        
+        
+.wrapword{white-space: -moz-pre-wrap !important;white-space: -pre-wrap;white-space: -o-pre-wrap;white-space: pre-wrap;word-wrap: break-word;word-break: break-all;white-space: normal;}        
+        
+@media(min-width:1200px){}
+
+@media(min-width:980px){}
+
+@media(min-width:768px) and (max-width:979px){
+    
+}
+
+@media(max-width:800px){
+    .gradebook_assignment{width: 30%;}
+    .student_details{width: 48%;}
+}
+
+@media(max-width:767px){
+    .navbar-inner{padding-left: 0; padding-right: 0;}
+    .navbar .nav>li>a{padding: 7px;}
+    .brand{padding: 0 !important;}
+    .nav.pull-right{margin-top: 5px;}
+    #show_full_menu{display: inline-block;}
+        #show_full_menu .icon2-menu{color: white;display: inline-block; font-size: 30px;margin-top: -2px;}
+    .well{padding: 4px 4px 4px 7px;}
+    .btn-group .btn-small{font-size: 17px;padding: 4px 12px;}
+    [class^="fontello-"]:before, [class*=" fontello-"]:before{font-size: 25px;}
+    .navbar .nav{margin-right: 0;}
+}
+
+@media(max-width:480px){
+    .gradebook_assignment{width: 100%;}
+    h2 small{display: block;}
+    .student_details{width: 100%;}
+    .navbar .nav>li>a{padding: 4px;}
+    [class^="fontello-"]:before, [class*=" fontello-"]:before{font-size: 19px;}
+    .calendar_modal{left: 2%;right: 2%;}
+}
+
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?ver=1.3');
+  src: url('../font/fontello.eot?ver=1.3#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff?ver=1.3') format('woff'),
+       url('../font/fontello.ttf?ver=1.3') format('truetype'),
+       url('../font/fontello.svg?ver=1.3#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?95230927#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="fontello-"]:before, [class*=" fontello-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.fontello-menu:before { content: '\2630'; } /* '☰' */
+.fontello-cog:before { content: '\2699'; } /* '⚙' */
+.fontello-attention:before { content: '\26a0'; } /* '⚠' */
+.fontello-ok:before { content: '\2713'; } /* '✓' */
+.fontello-graduation-cap:before { content: '\e024'; } /* '' */
+.fontello-building:before { content: '\f0f7'; } /* '' */
+.fontello-users-1:before { content: '\e800'; } /* '' */
+.fontello-users:before { content: '👥'; } /* '\1f465' */
+.fontello-calendar:before { content: '📅'; } /* '\1f4c5' */
+.fontello-book:before { content: '📕'; } /* '\1f4d5' */
+.fontello-bell-alt:before { content: '\f0f3'; } /* '' */
+.fontello-wallet:before { content: '\e02c'; } /* '' */
+.fontello-chart-bar:before { content: '📊'; } /* '\1f4ca' */
+.fontello-mail-alt:before { content: '\f0e0'; } /* '' */
+.fontello-download-cloud:before { content: '\f0ed'; } /* '' */
+#total_donor_container{ position:relative;}
+.total_table{ position:absolute; left:23%; font-size:15px; width:44%; text-align:center;}
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) {
+
+.total_table{ 
+  	left: 11%;
+    top: 40px;}
+}
+.schedule_heading{ text-align:center;margin: 0 auto; position:relative}
+.student_class_detail .even .time{ width:95%; text-align:center;}
+.day_events .title .subject_head{ width:90%; text-align:center}
+.student_class_detail  .title{ width:98%; display:block; text-align:center;}
+.student_class_detail .description{ margin-left:13px !important;}
+.head_container{ float:left; text-align:left; width:100%; line-height:40px;}
+.attend_class{ display: block;
+    float: right;
+    font-size: 13px;
+	font-weight:bold;
+    position: absolute;
+    right: 0;
+    top: 0;}
+.monthly_schedule_heading{}
+.align-left{ text-align:left !important;}
+.dashboard_pending_fees{ padding-bottom:88px;}
+.section_heading{ position:absolute;}
+.row-fluid .comment_registration{ width:95%; margin-top:20px;}
+.hidden_class{ display:none;}
